@@ -1,0 +1,16 @@
+podman search rhel
+podman run image-name
+
+podman run -d imagename
+
+podman run -it oraclelinux:8.5
+
+podman run -it oraclelinux:8.5
+
+podman run -it -d oraclelinux:8.5
+
+podman run -it -d --restart always oraclelinux:8.5
+
+podman exec -it practical_golick bash
+
+podman cp index.html f2b0d1fb9215:/usr/local/apache2/htdocs/index.html
